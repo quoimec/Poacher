@@ -1,0 +1,114 @@
+
+/* Document */
+
+@font-face {
+    font-family: SF-Heavy;
+    src: url(fonts/SF-Pro-Display-Heavy.otf);
+}
+
+@font-face {
+    font-family: SF-Medium;
+    src: url(fonts/SF-Pro-Display-Medium.otf);
+}
+
+@font-face {
+    font-family: SF-Bold;
+    src: url(fonts/SF-Pro-Display-Bold.otf);
+}
+
+.poacher-main {
+    padding: 12px;
+    padding-top: 6px;
+    padding-bottom: 0px;
+    /* max-height: 230px; */
+    /* height: 230px; */
+}
+
+
+
+/* Header */
+
+.poacher-header {
+    height: 20px;
+    margin-top: 10px;
+}
+
+.header-text {
+    font-size: 16px;
+    margin-top: -2px;
+}
+
+.header-logo, .header-text {
+    float: left;
+    font-size: 18px;
+    margin-right: 4px;
+    color: #434343;
+    height: 20px;
+    line-height: 20px;
+    font-family: SF-Heavy;
+}
+
+
+
+/* Message */
+
+.poacher-message {
+    font-size: 13px;
+    font-family: SF-Medium;
+    color: #8C8C8C;
+    margin-top: 18px;
+}
+
+
+
+/* Actions */
+
+.poacher-actions {
+    margin-top: 14px;
+    height: 144px;
+}
+
+.poacher-button {
+    width: 180px;
+    height: 30px;
+    margin-bottom: 8px;
+    background-color: #E38D14;
+    border-radius: 8px;
+    text-align: center;
+    line-height: 30px;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-family: SF-Bold;
+    cursor: pointer;
+}
+
+.poacher-button:hover {
+    opacity: 0.85;
+}
+
+.poacher-timer {
+    width: 180px;
+    height: 50px;
+    margin-bottom: 8px;
+    background-color: #6BD568;
+    border-radius: 8px;
+    text-align: center;
+    line-height: 50px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: SF-Heavy;
+}
+
+.poacher-stop {
+    width: 180px;
+    height: 30px;
+    margin-bottom: 8px;
+    background-color: #C64D4D;
+    border-radius: 8px;
+    text-align: center;
+    line-height: 30px;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-family: SF-Bold;
+    cursor: pointer;
+}

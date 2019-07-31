@@ -1,0 +1,20 @@
+{
+   "name": "Poacher",
+   "description" : "Let's go on a Safari together",
+   "version": "1.0",
+   "manifest_version": 2,
+   "browser_action": {
+       "default_popup": "extension/index.html",
+       "default_icon": "icon.png"
+    },
+    "background": {
+        "scripts": [
+            "extension/scripts/background.js"
+        ],
+        "persistent": true
+    },
+    "permissions": [
+        "tabs",
+        "alarms"
+    ]
+ }
