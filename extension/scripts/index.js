@@ -44,10 +44,15 @@ function countDown(endTime) {
         return
     }
     
-    var timeMinutes = padTime(Math.floor(timeDistance / (1000 * 60)));
-    var timeSeconds = padTime(Math.ceil((timeDistance % (1000 * 60)) / 1000));
+    var timeMinutes = Math.floor(timeDistance / (1000 * 60));
+    var timeSeconds = Math.ceil((timeDistance % (1000 * 60)) / 1000);
     
-    $("#poacher-timer").text(timeMinutes + ":" + timeSeconds);
+    if (timeSeconds == 60) {
+        timeSeconds = 0;
+        timeMinutes += 1;
+    }
+    
+    $("#poacher-timer").text(padTime(timeMinutes) + ":" + padTime(timeSeconds));
     
 }
 
